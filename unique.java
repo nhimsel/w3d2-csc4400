@@ -1,14 +1,14 @@
 class Main {
     public static void main(String[] args) {
-        System.out.println(unique.unique("unique"));
-        System.out.println(unique.unique("word"));
-        System.out.println(unique.unique("?%>?"));
-        System.out.println(unique.unique("123456789"));
-        System.out.println(unique.unique("シツ"));
+        System.out.println(Unique.unique("unique"));
+        System.out.println(Unique.unique("word"));
+        System.out.println(Unique.unique("?%>?"));
+        System.out.println(Unique.unique("123456789"));
+        System.out.println(Unique.unique("シツ"));
     }
 }
 
-class unique {
+class Unique {
     static boolean unique(String s) {
         char[] word = s.toCharArray();
         char[] used = new char[word.length];
