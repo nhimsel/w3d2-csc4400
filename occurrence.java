@@ -10,8 +10,6 @@ class Main {
         System.out.println(Occurrence.occurrence(words, key1));
         System.out.println(Occurrence.occurrence(words, key2));
         System.out.println(Occurrence.occurrence(words, key3));
-
-        
     }
 }
 

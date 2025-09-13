@@ -2,9 +2,6 @@ class Main {
     public static void main(String[] args) {
         System.out.println(Unique.unique("unique"));
         System.out.println(Unique.unique("word"));
-        System.out.println(Unique.unique("?%>?"));
-        System.out.println(Unique.unique("123456789"));
-        System.out.println(Unique.unique("シツ"));
     }
 }
 
