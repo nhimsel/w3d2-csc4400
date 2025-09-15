@@ -65,7 +65,7 @@ class Occurrence {
         char[] c = s.toCharArray();
         for (int i=0; i<c.length; i++) {
             if (!isLegalChar(c[i])) {
-                //clean char, replace w/ space
+                //unclean char, replace w/ space
                 c[i] = ' ';
             }
         }
